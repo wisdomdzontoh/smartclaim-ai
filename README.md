@@ -76,36 +76,9 @@ Every **Claim** would also link to a Company:
 
 # ✨ Bonus:
 
-You could even let **Company Admins** customize:
-
 * Their email templates.
 * Their dashboard branding (e.g., logo in top left corner).
 * Their claim approval workflows (optional).
-
----
-
-# 🚀 In Short:
-
-✅ Yes, we can make it multitenant.
-
-✅ Django and DRF are actually **perfect** for it.
-
-✅ You'll need a little user role logic + scoped queryset filtering.
-
----
-
-Would you like me to also sketch a **full updated database schema (ERD)** for this multitenant setup? 📊
-
-It would make it super clear visually how everything connects! 🚀
-
-##### You said:
-
-great now lets rewrite the documentation again to include these new ideas and your recommendations. when you are done  sketch out a high-level system architecture diagram to show how all these pieces would fit together. also we could include other roles in the company which can be assigned to other staff in the company
-
-###### ChatGPT said:
-
-Perfect — let’s fully **upgrade** the documentation with:
-
 * Multitenancy (companies/firms)
 * Role-Based Access Control within companies
 * Support for multiple **staff roles** inside a company (claims handler, supervisor, etc.)
@@ -262,3 +235,5 @@ Customers upload  **documents, images, and videos** ; AI models automate parsing
 ---
 
 # 📈 Updated High-Level System Architecture Diagram
+
+![1745700223401](image/README/1745700223401.png)
